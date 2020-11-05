@@ -106,6 +106,7 @@ dataSource:
 environments:
     development:
         dataSource:
+            logSql: true
             dbCreate: update
             driverClassName: org.postgresql.Driver
             url: "jdbc:postgresql://localhost:5532/grails_extra"
